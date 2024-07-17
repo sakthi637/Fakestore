@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map.css">
+    <title>Responsive Navbar</title>
+</head>
+<body>
+    <nav>
+        <span class="site-logo">L  O  G  O</span>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <div class="nav-links">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">PRODUCTS</a>
+            <a href="#">CONTACTS</a>
+        </div>
+    </nav>
+    <div id="product-section">
+        <div class="filter-top">
+            <h1>PRODUCTS</h1>
+            <select name="category" id="category-select">
+                <option value="all">All</option>
+                <option value="women's clothing">Women's Clothing</option>
+                <option value="men's clothing">Men's Clothing</option>
+                <option value="jewelery">Jewelery</option>
+                <option value="electronics">Electronics</option>
+            </select>
+        </div>
+        <div class="product-grid"></div>
+    </div>
+    <script src="map2.js"></script>
+    <script src="map.js"></script>
+</body>
+</html>
